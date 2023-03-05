@@ -1,0 +1,16 @@
+{
+  "header": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "project": "Proyectos",
+    "contact": "Contacto",
+    "buttonLanguage1": "Ingles",
+    "buttonLanguage2": "Español"
+  },
+  "hero": {
+    "hero.h1": "Hola mi nombre es",
+    "hero.h2": "Luis Muñoz",
+    "hero.h3": "Un Desarrollador Front-End apasionado",
+    "hero.p": "Soy ingeniero de software y desarrollador Front-End. Me gusta crear cosas y aprender nuevas tecnologías constantemente."
+  }
+}
