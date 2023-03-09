@@ -12,6 +12,15 @@
     "hero.h1": "Hi my name is",
     "hero.h2": "Luis Muñoz",
     "hero.h3": "A passionate Front-End Developer",
-    "hero.p": "I’m a software engineer and Front-End developer.I like build stuffs and the constantly learning new technologies."
+    "hero.p": "I’m a software engineer and Front-End developer. I like build stuffs and the constantly learning new technologies.",
+    "hero.button" : "About Me"
+  },
+
+  "about": {
+    "about.h2": "Who I am ?",
+    "about.p1": "Hello!!, my name is Luis Muñoz and I am a Software Engineer focused on Front-End Development, I finished my studies at the college and I am looking to gain experience work, I currently live in Chile.",
+    "about.p2": "I like to build websites using the tools in the which I have knowledge and be constantly training myself in new technologies.",
+    "about.p3": "Today I am studying Node and Express to be able to be a Full Stack Developer.",
+    "about.p4" : "These are some technologies in which I have knowledge and I am also learning:"
   }
 }

@@ -11,6 +11,15 @@
     "hero.h1": "Hola mi nombre es",
     "hero.h2": "Luis Muñoz",
     "hero.h3": "Un Desarrollador Front-End apasionado",
-    "hero.p": "Soy ingeniero de software y desarrollador Front-End. Me gusta crear cosas y aprender nuevas tecnologías constantemente."
+    "hero.p": "Soy ingeniero de software y desarrollador Front-End. Me gusta crear cosas y aprender nuevas tecnologías constantemente.",
+    "hero.button": "Acerca de mí"
+  },
+
+  "about": {
+    "about.h2": "Quien Soy ?",
+    "about.p1": "Hola!!, mi nombre es Luis Muñoz y soy un Ingeniero de Software enfocado en el Desarrollo Front-End, termine mis estudios en la universidad y me encuentro en búsqueda de generar experiencia laboral, vivo actualmente en Chile.",
+    "about.p2": "Me gusta contruir sitios web utilizando las herramientas en las cuáles poseo conocimiento y estar constantemente capacitándome en nuevas tecnologías.",
+    "about.p3": "Hoy en día me encuentro estudiando Node y Express para poder ser un desarrollador FullStack.",
+    "about.p4" : "Estas son algunas tecnologías en las cuales poseo conocimientos y además me encuentro aprendiendo:"
   }
 }

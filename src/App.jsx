@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { About } from "./components/About";
+import { Experience } from "./components/Experience";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 
@@ -18,9 +20,11 @@ function App() {
   };
 
   return (
-    <div className="App dark:bg-stone-900 mx-auto h-screen">
+    <div className="App dark:bg-stone-900 mx-auto">
       <Header theme={theme} handleTheme={handleTheme} />
-      <Hero/>
+      <Hero />
+      <About />
+      <Experience />
     </div>
   );
 }
