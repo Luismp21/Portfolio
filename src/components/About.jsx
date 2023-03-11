@@ -4,8 +4,8 @@ export const About = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <>
-      <div className="container mx-auto w-1/2 flex gap-2">
+    <section>
+      <div className="container mx-auto w-1/2 flex gap-2 p-16">
         <div>
           <h2 className="text-4xl font-bold text-white mb-8">
             <span className="text-2xl font-normal text-cyan-300">01. </span>
@@ -70,6 +70,6 @@ export const About = () => {
           <img src="./public/perfil.png" className="bg-contain bg-center" />
         </div>
       </div>
-    </>
+    </section>
   );
 };

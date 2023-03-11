@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { Proyects } from "./components/Proyects";
+
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -25,6 +29,9 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Proyects/>
+      <Contact />
+      <Footer />
     </div>
   );
 }

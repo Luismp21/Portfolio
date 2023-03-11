@@ -9,11 +9,11 @@
   },
 
   "hero": {
-    "hero.h1": "Hi my name is",
+    "hero.h1": "Hi, my name is",
     "hero.h2": "Luis Muñoz",
     "hero.h3": "A passionate Front-End Developer",
-    "hero.p": "I’m a software engineer and Front-End developer. I like build stuffs and the constantly learning new technologies.",
-    "hero.button" : "About Me"
+    "hero.p": "I am a software engineer and Front-End developer. I like to create things related to web development and constantly learn new technologies.",
+    "hero.button": "About Me"
   },
 
   "about": {
@@ -21,6 +21,42 @@
     "about.p1": "Hello!!, my name is Luis Muñoz and I am a Software Engineer focused on Front-End Development, I finished my studies at the college and I am looking to gain experience work, I currently live in Chile.",
     "about.p2": "I like to build websites using the tools in the which I have knowledge and be constantly training myself in new technologies.",
     "about.p3": "Today I am studying Node and Express to be able to be a Full Stack Developer.",
-    "about.p4" : "These are some technologies in which I have knowledge and I am also learning:"
+    "about.p4": "These are some technologies in which I have knowledge and I am also learning:"
+  },
+
+  "experience": {
+    "experience.h2": "Where I’ve Worked?",
+    "experience.h3": "DevLEF SPA.",
+    "experience.h5": "May 2022 - July 2022.",
+    "experience.p1": "I worked with a development team performing monitoring tasks such as reporting events, leading meetings, working with a team as well as coordinating them and verifying the achievement of objectives.",
+    "experience.p2": "I also did design and redesign of websites to improve navigation and visual appeal, I also did web page creation tasks using tools like Html, Css, Bootstrap and JavaScript.",
+    "experience.p3": "Aptitude : ",
+    "experience.p4": "Meeting Leadership · Team Leadership · Training · Software Development  · Teamwork"
+  },
+
+  "contact": {
+    "contact.h2": "Contact",
+    "contact.h3": "Interested in working together?",
+    "contact.p": "I am currently looking for my first job and I am exploring opportunities, any questions do not hesitate to contact me, I will respond as quickly as possible!!!",
+    "contact.button": "Say Hello"
+  },
+
+  "proyect": {
+    "proyect.h2": "Proyects",
+    "proyect.card.p1": "Developer",
+    "proyect.card.p2": "Luis Muñoz",
+    "proyect.card1.h3": "Veterinary Administrator",
+    "proyect.card1.p3": "Veterinary administrator project that has localstore, made with React, Vite and Tailwindcss.",
+    "proyect.card2.h3": "Cryptocurrency quote.",
+    "proyect.card2.p3": "Cryptocurrency quote app, made with React and consuming the CryptoCompare API.",
+    "proyect.card3.h3": "GifExpertApp",
+    "proyect.card3.p3": "Gif search app, made in Vite with React and consuming the GIPHY Developers API."
+  },
+
+  "footer": {
+    "footer.p1": "Made with : ",
+    "footer.p2": "Made by Luis Muñoz."
   }
 }
+
+
