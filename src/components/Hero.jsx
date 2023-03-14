@@ -5,24 +5,24 @@ export const Hero = () => {
 
   return (
     <section>
-      <div className="container sm:mx-auto min-[320px]:p-16 sm:pt-80 sm:w-3/4 lg:w-1/2 min-h-screen	">
-        <h1 className="text-lg dark:text-cyan-300 text-black mb-6">
+      <div className="container sm:mx-auto min-[320px]:pt-44 sm:pt-80 sm:w-3/4 lg:w-1/2 min-h-screen" >
+        <h1 className="text-lg font-semibold text-cyan-300 mb-6" data-aos="fade-right" data-aos-duration="300" data-aos-easing="ease-in-sine">
           {t("hero.hero.h1")}
         </h1>
-        <h2 className="font-black min-[320px]:text-5xl sm:text-7xl text-slate-200 mb-2">
+        <h2 className="font-black min-[320px]:text-5xl sm:text-7xl text-black dark:text-white mb-2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine">
           {t("hero.hero.h2")}
         </h2>
-        <h3 className="font-black min-[320px]:text-3xl sm:text-5xl text-slate-400 mb-6">
+        <h3 className="font-black min-[320px]:text-3xl sm:text-5xl text-black dark:text-slate-400 mb-6" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine">
           {t("hero.hero.h3")}
         </h3>
-        <p className="text-lg text-slate-400 md:w-8/12 mb-12">
+        <p className="text-lg font-semibold text-black dark:text-slate-400 md:w-8/12 mb-12" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
           {t("hero.hero.p")}
         </p>
 
-        <div className="sm:flex sm:gap-10 items-center justify-between">
+        <div className="sm:flex sm:gap-10 items-center justify-between" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
           <a
             href=""
-            className="bg-indigo-500 hover:bg-indigo-600 font-bold text-white p-5 rounded-lg transition hover:-translate-y-1 hover:scale-110 duration-300 hover:shadow-2xl hover:shadow-cyan-300"
+            className="bg-indigo-500 dark:hover:bg-indigo-600 font-bold text-white p-5 rounded-lg transition hover:-translate-y-1 hover:scale-110 duration-300 hover:shadow-2xl hover:shadow-cyan-300"
           >
             {t("hero.hero.button")}
           </a>
@@ -30,20 +30,20 @@ export const Hero = () => {
             <a
               href="https://www.linkedin.com/in/luis-munoz-pinilla/"
               target="_blank"
-              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border hover:bg-indigo-500 border-indigo-600"
+              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border bg-indigo-500 dark:bg-transparent dark:hover:bg-indigo-600  border-indigo-700"
             >
               <ion-icon size="large" name="logo-linkedin"></ion-icon>
             </a>
             <a
               href="https://github.com/Luismp21?tab=repositories"
               target="_blank"
-              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border hover:bg-indigo-500 border-indigo-600"
+              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border bg-indigo-500 dark:bg-transparent dark:hover:bg-indigo-600  border-indigo-700"
             >
               <ion-icon size="large" name="logo-github"></ion-icon>
             </a>
             <a
               href=""
-              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border hover:bg-indigo-500 border-indigo-600"
+              className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border bg-indigo-500 dark:bg-transparent dark:hover:bg-indigo-600  border-indigo-700"
             >
               <ion-icon size="large" name="document-text-outline"></ion-icon>
             </a>

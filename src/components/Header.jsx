@@ -44,9 +44,15 @@ export const Header = ({ theme, handleTheme }) => {
     }
   };
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6  container  mx-auto fixed left-8 right-8 bg-stone-900 z-50">
+    <nav className="lg:container flex items-center justify-between flex-wrap p-6  fixed left-8 right-8 bg-white dark:bg-stone-900 z-50 " data-aos="fade-down" data-aos-easing="linear"
+    data-aos-duration="1000">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <img src="./public/logo1.svg" alt="logo" width={"60px"} height={"60px"}/>
+        <img
+          src="./public/logo1.svg"
+          alt="logo"
+          width={"60px"}
+          height={"60px"}
+        />
       </div>
 
       <div className="block lg:hidden">
@@ -65,28 +71,28 @@ export const Header = ({ theme, handleTheme }) => {
       >
         <div className="min-[320px]:flex min-[320px]:item-center text-sm sm:mt-12px sm:flex flex-col items-center lg:flex-grow">
           {" "}
-          <ol className="lg:flex justify-center gap-6 decoration-sky-400">
+          <ol className="lg:flex justify-center gap-6">
             <li className="block mt-4 lg:inline-block lg:mt-0 py-4 mx-4">
-              <a className="text-black  dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
-                <span className="text-black dark:text-cyan-300">01. </span>
+              <a className="text-black hover:text-cyan-300 dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
+                <span className="text-cyan-300">01. </span>
                 {t("header.about")}
               </a>
             </li>
             <li className="block mt-4 lg:inline-block lg:mt-0 text-black dark:text-cyan-300 py-4 mx-4">
-              <a className="text-black dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
-                <span className="text-black dark:text-cyan-300">02. </span>
+              <a className="text-black hover:text-cyan-300 dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
+                <span className="text-cyan-300">02. </span>
                 {t("header.experience")}
               </a>
             </li>
             <li className="block mt-4 lg:inline-block lg:mt-0 text-black dark:text-cyan-300 py-4 mx-4">
-              <a className="text-black dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
-                <span className="text-black dark:text-cyan-300">03. </span>
+              <a className="text-black hover:text-cyan-300 dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
+                <span className="text-cyan-300">03. </span>
                 {t("header.project")}
               </a>
             </li>
             <li className="block mt-4 lg:inline-block lg:mt-0 text-black dark:text-cyan-300 py-4 mx-4">
-              <a className="text-black dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
-                <span className="text-black dark:text-cyan-300">04. </span>
+              <a className="text-black hover:text-cyan-300 dark:hover:text-cyan-300 dark:text-slate-400 font-bold transition duration-300 cursor-pointer hvr-underline-from-left">
+                <span className="text-cyan-300">04. </span>
                 {t("header.contact")}
               </a>
             </li>
@@ -96,7 +102,7 @@ export const Header = ({ theme, handleTheme }) => {
         <div className="lg:flex-row flex  mt-10 lg:mt-0 gap-6 justify-center items-end">
           <div className="flex-col relative flex lg:flex-row items-center gap-2">
             <button
-              className="text-black dark:text-slate-400  dark:hover:text-cyan-300 text-4xl p-2  hover:border-cyan-300 transition duration-300 cursor-pointer"
+              className="text-black hover:text-cyan-300 dark:text-slate-400  dark:hover:text-cyan-300 text-4xl p-2  hover:border-cyan-300 transition duration-300 cursor-pointer"
               type="button"
               onClick={handleTheme}
             >
@@ -108,14 +114,14 @@ export const Header = ({ theme, handleTheme }) => {
             </button>
 
             <button
-              className="text-white flex items-center gap-4 p-4"
+              className="text-black dark:text-white flex items-center gap-4 p-4"
               onClick={hiddenLanguageButton}
             >
               <div className=" text-cyan-300">
                 <ion-icon size="large" name="language-outline"></ion-icon>
               </div>
 
-              <span className="text-white">
+              <span className="text-black dark:text-white">
                 {selectorLanguaje === "en" ? "EN" : "ES"}
                 <ion-icon name="caret-down-outline"></ion-icon>
               </span>
@@ -123,7 +129,7 @@ export const Header = ({ theme, handleTheme }) => {
 
             <ul
               id="menu"
-              className="hidden text-white absolute min-[320px]:top-32 min-[320px]:right-0.5 min-[375px]:top-32 min-[375px]:right-0.5 top-32 right-24 sm:top-32 sm:right-0.5 lg:top-16 lg:right-4 border border-cyan-300 rounded-md p-2"
+              className="hidden text-black dark:text-slate-400 bg-white dark:bg-stone-900 font-semibold absolute min-[320px]:top-32 min-[320px]:right-0.5 min-[375px]:top-32 min-[375px]:right-0.5 top-32 right-24 sm:top-32 sm:right-0.5 lg:top-16 lg:right-4 border border-cyan-300 rounded-md p-2"
             >
               <li
                 id="menu1"

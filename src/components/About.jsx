@@ -5,17 +5,55 @@ export const About = () => {
 
   return (
     <section>
-      <div className="container mx-auto w-1/2 flex gap-2 p-16">
+      <div className="container lg:mx-auto lg:w-1/2 lg:flex gap-2 p-16">
         <div>
-          <h2 className="text-4xl font-bold text-white mb-8">
+          <h2
+            className="text-4xl font-bold text-black dark:text-white mb-8"
+            data-aos="fade-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-sine"
+          >
             <span className="text-2xl font-normal text-cyan-300">01. </span>
             {t("about.about.h2")}
           </h2>
-          <p className="text-slate-400 mb-4 text-lg">{t("about.about.p1")}</p>
-          <p className="text-slate-400 mb-4 text-lg">{t("about.about.p2")}</p>
-          <p className="text-slate-400 mb-4 text-lg">{t("about.about.p3")}</p>
-          <p className="text-slate-400 mb-8 text-lg">{t("about.about.p4")}</p>
-          <ul className="text-slate-400 grid grid-rows-3 grid-cols-3 text-lg">
+          <p
+            className="dark:text-slate-400 mb-4 font-semibold text-lg"
+            data-aos="fade-right"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-sine"
+          >
+            {t("about.about.p1")}
+          </p>
+          <p
+            className="dark:text-slate-400 mb-4 font-semibold text-lg"
+            data-aos="fade-right"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-sine"
+          >
+            {t("about.about.p2")}
+          </p>
+          <p
+            className="dark:text-slate-400 mb-4 font-semibold text-lg"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+          >
+            {t("about.about.p3")}
+          </p>
+          <p
+            className="dark:text-slate-400 mb-8 font-semibold text-lg"
+            data-aos="fade-right"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-sine"
+          >
+            {t("about.about.p4")}
+          </p>
+          <ul
+            className="dark:text-slate-400 font-semibold text-lg grid grid-rows-3 grid-cols-3"
+            data-aos="fade-right"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-sine"
+          >
             <li>
               <span className="text-cyan-300">
                 <ion-icon name="caret-forward-outline"></ion-icon>
@@ -66,7 +104,11 @@ export const About = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-sine"
+        >
           <img src="./public/perfil.png" className="bg-contain bg-center" />
         </div>
       </div>

@@ -7,7 +7,6 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Proyects } from "./components/Proyects";
 
-
 function App() {
   const [theme, setTheme] = useState("dark");
 
@@ -24,12 +23,12 @@ function App() {
   };
 
   return (
-    <div className="App dark:bg-stone-900 mx-auto">
+    <div className="App bg-slate-50 dark:bg-stone-900 mx-auto">
       <Header theme={theme} handleTheme={handleTheme} />
       <Hero />
       <About />
       <Experience />
-      <Proyects/>
+      <Proyects />
       <Contact />
       <Footer />
     </div>
