@@ -15,7 +15,7 @@ export const Footer = () => {
       >
         <div className="min-[320px]:mb-10 sm:mb-0">
           <img
-            src="./public/logo1.svg"
+            src="/logo1.svg"
             alt="logo"
             width={"60px"}
             height={"60px"}
@@ -37,7 +37,7 @@ export const Footer = () => {
             <ion-icon size="large" name="logo-github"></ion-icon>
           </a>
           <a
-            href="../public/docPrueba.pdf"
+            href="/docPrueba.pdf"
             className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border bg-indigo-500 dark:bg-transparent dark:hover:bg-indigo-600 border-indigo-600"
             rel="noopener noreferrer"
             download="docPrueba.pdf"
@@ -51,8 +51,8 @@ export const Footer = () => {
           <p className="font-semibold dark:font-normal dark:text-slate-400">
             {t("footer.footer.p1")}
           </p>
-          <img src="./public/react.svg" width={"40px"} />
-          <img src="./public/tailwind.svg" width={"40px"} />
+          <img src="/react.svg" width={"40px"} />
+          <img src="/tailwind.svg" width={"40px"} />
         </div>
         <p className="font-semibold dark:font-normal dark:text-slate-400">
           {t("footer.footer.p2")}

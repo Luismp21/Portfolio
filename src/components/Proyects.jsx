@@ -19,7 +19,7 @@ export const Proyects = () => {
           >
             <img
               alt="Proyect1"
-              src="./public/proyecto1.png"
+              src="/proyecto1.png"
               className="absolute inset-0 h-full rounded-3xl  opacity-75 transition-opacity group-hover:opacity-50"
             />
             <div className="relative p-4 translate-y-8 transform opacity-0 transition-all  duration-500 group-hover:translate-y-0 group-hover:opacity-100">
@@ -81,7 +81,7 @@ export const Proyects = () => {
           >
             <img
               alt="Proyect2"
-              src="./public/proyecto2.png"
+              src="/proyecto2.png"
               className="absolute inset-0 h-full rounded-3xl  opacity-75 transition-opacity group-hover:opacity-50"
             />
 
@@ -143,7 +143,7 @@ export const Proyects = () => {
           >
             <img
               alt="Proyect3"
-              src="./public/proyecto3.png"
+              src="/proyecto3.png"
               className="absolute inset-0 h-full rounded-3xl  opacity-75 transition-opacity group-hover:opacity-50"
             />
 
@@ -206,7 +206,7 @@ export const Proyects = () => {
           >
             <img
               alt="Proyect4"
-              src="./public/proyecto4.png"
+              src="/proyecto4.png"
               className="absolute inset-0 h-full rounded-3xl  opacity-75 transition-opacity group-hover:opacity-50"
             />
             <div className="relative p-4 translate-y-8 transform opacity-0 transition-all  duration-500 group-hover:translate-y-0 group-hover:opacity-100">

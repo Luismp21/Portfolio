@@ -55,7 +55,7 @@ export const Header = ({ theme, handleTheme }) => {
         <div className="flex items-center flex-shrink-0 text-white">
           <a href="/">
             <img
-              src="./public/logo1.svg"
+              src="/logo1.svg"
               alt="logo"
               width={"60px"}
               height={"60px"}
@@ -77,7 +77,7 @@ export const Header = ({ theme, handleTheme }) => {
           id="mobileMenu"
           className="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto "
         >
-          <div className="min-[320px]:flex min-[320px]:item-center text-sm 2xl:text-lg sm:mt-12px sm:flex flex-col items-center lg:flex-grow">
+          <div className="min-[320px]:flex min-[320px]:item-center text-sm sm:mt-12px sm:flex flex-col items-center lg:flex-grow">
             {" "}
             <ol className="lg:flex justify-center lg:gap-2">
               <li className="block mt-4 lg:inline-block lg:mt-0 py-4 mx-4">
@@ -161,7 +161,7 @@ export const Header = ({ theme, handleTheme }) => {
                   onClick={spanishLanguage}
                 >
                   <img
-                    src="./public/chile.png"
+                    src="/chile.png"
                     className="w-8 h-8"
                     alt="img-chile"
                   />
@@ -173,7 +173,7 @@ export const Header = ({ theme, handleTheme }) => {
                   onClick={englishLanguage}
                 >
                   <img
-                    src="./public/eeuu.png"
+                    src="/eeuu.png"
                     className="w-8 h-8"
                     alt="img-eeuu"
                   />

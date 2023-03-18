@@ -109,7 +109,7 @@ export const About = () => {
           data-aos-duration="600"
           data-aos-easing="ease-in-sine"
         >
-          <img src="./public/perfil.png" className="bg-contain bg-center" />
+          <img src="/perfil.png" className="bg-contain bg-center" />
         </div>
       </div>
     </section>
