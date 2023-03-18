@@ -28,7 +28,7 @@
     "experience.h2": "Where I’ve Worked?",
     "experience.h3": "DevLEF SPA.",
     "experience.h5": "May 2022 - July 2022.",
-    "experience.p1": "I worked with a development team performing monitoring tasks such as reporting events, leading meetings, working with a team as well as coordinating them and verifying the achievement of objectives.",
+    "experience.p1": "I worked doing my internship with a development team carrying out monitoring tasks such as reporting events, leading meetings, working with a team as well as coordinating them and verifying the fulfillment of objectives.",
     "experience.p2": "I also did design and redesign of websites to improve navigation and visual appeal, I also did web page creation tasks using tools like Html, Css, Bootstrap and JavaScript.",
     "experience.p3": "Aptitude : ",
     "experience.p4": "Meeting Leadership · Team Leadership · Training · Software Development  · Teamwork"
@@ -50,7 +50,9 @@
     "proyect.card2.h3": "Cryptocurrency quote.",
     "proyect.card2.p3": "Cryptocurrency quote app, made with React and consuming the CryptoCompare API.",
     "proyect.card3.h3": "GifExpertApp",
-    "proyect.card3.p3": "Gif search app, made in Vite with React and consuming the GIPHY Developers API."
+    "proyect.card3.p3": "Gif search app, made in Vite with React and consuming the GIPHY Developers API.",
+    "proyect.card4.h3": "Portfolio",
+    "proyect.card4.p3": "Portfolio project to demonstrate the experience acquired, themes such as light and dark were applied, in addition to adding translation, made with React, Vite, Tailwindcss and libraries such as AOS."
   },
 
   "footer": {

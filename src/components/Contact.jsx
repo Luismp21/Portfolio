@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
-    <section className="mb-28">
-      <div className="container flex flex-col items-center mx-auto w-1/2">
+    <section id="contact">
+      <div className="container text-lg flex flex-col min-[320px]:text-center min-[320px]:px-8 items-center mx-auto my-40 sm:w-3/4">
         <h2
           className="text-black dark:text-white text-4xl font-bold mb-8"
           data-aos="fade-up"
@@ -32,6 +32,7 @@ export const Contact = () => {
           className="bg-indigo-500 hover:bg-indigo-600 font-semibold text-white ont-bold p-5 mt-10 rounded-lg transition hover:-translate-y-1 hover:scale-110 duration-300 hover:shadow-2xl hover:shadow-cyan-300 cursor-pointer"
           data-aos="fade-up"
           data-aos-duration="1900"
+          href="mailto:luis.m.pinilla21.@gmail.com"
         >
           {t("contact.contact.button")}
         </a>

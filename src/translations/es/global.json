@@ -27,7 +27,7 @@
     "experience.h2": "¿Dónde he trabajado?",
     "experience.h3": "DevLEF SPA.",
     "experience.h5": "Mayo 2022 - Julio 2022.",
-    "experience.p1": "Trabajé junto a un equipo de desarrollo realizando tareas de monitor como informar sucesos, dirigir reuniones, trabajar junto a un equipo además de coordinarlos y verificar el cumplimiento de objetivos.",
+    "experience.p1": "Trabajé realizando mi practica laboral junto a un equipo de desarrollo llevando a cabo tareas de monitor como informar sucesos, dirigir reuniones, trabajar junto a un equipo además de coordinarlos y verificar el cumplimiento de objetivos.",
     "experience.p2": "También realize labores de diseño y rediseño de sitios web para mejorar la navegación y atractivo visual, igualmente realize tareas de creación de paginas web utilizando herramientas como Html, Css, Bootstrap y JavaScript.",
     "experience.p3": "Aptitudes : ",
     "experience.p4": "Liderazgo reuniones · Liderazgo de equipos · Capacitación · Desarrollo de software · Trabajo en equipo"
@@ -42,7 +42,9 @@
     "proyect.card2.h3": "Cotizador de Criptomonedas",
     "proyect.card2.p3": "App de cotizador de cryptomonedas, realizado con React y consumiendo la API de CryptoCompare.",
     "proyect.card3.h3": "GifExpertApp",
-    "proyect.card3.p3": "App de buscador de Gif, realizado en Vite con React y consumiendo la API de GIPHY Developers."
+    "proyect.card3.p3": "App de buscador de Gif, realizado en Vite con React y consumiendo la API de GIPHY Developers.",
+    "proyect.card4.h3": "Portafolio",
+    "proyect.card4.p3": "Proyecto de portafolio para demostrar la experiencia adquirida, se aplico temas como claro y oscuro, además de agregar traducción, realizado con React, Vite, Tailwindcss y librerias como AOS."
   },
 
   "contact": {

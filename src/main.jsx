@@ -6,7 +6,7 @@ import App from "./App";
 import "./index.css";
 
 import AOS from "aos";
-// import "aos/dist/aos.css";
+import "aos/dist/aos.css";
 
 import global_es from "./translations/es/global.json";
 import global_en from "./translations/en/global.json";

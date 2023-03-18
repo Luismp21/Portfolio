@@ -3,6 +3,7 @@ import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Footer } from "./components/Footer";
+import { GoToTopBtn } from "./components/GoToTopBtn";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Proyects } from "./components/Proyects";
@@ -23,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="App bg-slate-50 dark:bg-stone-900 mx-auto">
+    <div className="App bg-slate-50 dark:bg-stone-900">
       <Header theme={theme} handleTheme={handleTheme} />
       <Hero />
       <About />
@@ -31,6 +32,7 @@ function App() {
       <Proyects />
       <Contact />
       <Footer />
+      <GoToTopBtn />
     </div>
   );
 }

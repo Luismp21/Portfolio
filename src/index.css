@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+section[id] {
+  scroll-margin-top: 150px;
+}
+header[id] {
+  scroll-margin-top: 150px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 .hvr-underline-from-left {
     display: inline-block;
     vertical-align: middle;

@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 
 export const About = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   return (
-    <section>
-      <div className="container lg:mx-auto lg:w-1/2 lg:flex gap-2 p-16">
+    <section id="about">
+      <div className="container min-[320px]:px-8 sm:mx-auto sm:w-3/4 lg:w-3/4 xl:w-3/5 lg:flex lg:items-center gap-2 p-16 ">
         <div>
           <h2
             className="text-4xl font-bold text-black dark:text-white mb-8"
@@ -49,7 +49,7 @@ export const About = () => {
             {t("about.about.p4")}
           </p>
           <ul
-            className="dark:text-slate-400 font-semibold text-lg grid grid-rows-3 grid-cols-3"
+            className="dark:text-slate-400 font-semibold text-lg grid grid-rows-3 grid-cols-2 sm:grid-cols-3 mb-4"
             data-aos="fade-right"
             data-aos-duration="700"
             data-aos-easing="ease-in-sine"
