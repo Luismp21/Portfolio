@@ -14,12 +14,14 @@ export const Footer = () => {
         data-aos-duration="1900"
       >
         <div className="min-[320px]:mb-10 sm:mb-0">
+        <a href="/">
           <img
             src="/logo1.svg"
             alt="logo"
             width={"60px"}
             height={"60px"}
           />
+          </a>
         </div>
         <div className="mt-20 sm:mt-0 flex items-center gap-4">
           <a

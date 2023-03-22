@@ -47,7 +47,7 @@ export const Header = ({ theme, handleTheme }) => {
   return (
     <header id="header">
       <nav
-        className="xl:container mx-auto flex items-center justify-between flex-wrap p-6 fixed left-8 right-8 bg-white dark:bg-stone-900 z-50 "
+        className="xl:container mx-auto flex items-center justify-between flex-wrap p-6 fixed left-0 right-0 bg-white dark:bg-stone-900 z-50 "
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1000"

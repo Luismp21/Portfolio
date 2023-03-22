@@ -105,7 +105,7 @@ export const About = () => {
           </ul>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="600"
           data-aos-easing="ease-in-sine"
         >
