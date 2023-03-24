@@ -6,7 +6,12 @@ export const Proyects = () => {
   return (
     <section id="projects">
       <div className="container min-[320px]:text-center min-[320px]:px-8 mx-auto sm:w-3/4 lg:w-3/4 mb-40">
-        <h2 className="text-4xl font-bold text-black dark:text-white mb-20" data-aos="fade-right" data-aos-duration="300" data-aos-easing="ease-in-sine">
+        <h2
+          className="text-4xl font-bold text-black dark:text-white mb-20"
+          data-aos="fade-right"
+          data-aos-duration="300"
+          data-aos-easing="ease-in-sine"
+        >
           <span className="text-2xl font-normal text-cyan-300">03. </span>
           {t("proyect.proyect.h2")}
         </h2>
@@ -159,14 +164,14 @@ export const Proyects = () => {
                 </div>
                 <div className="flex flex-row gap-4">
                   <a
-                    href="https://gif-expert-lm.netlify.app/"
+                    href="https://github.com/Luismp21/GifExpert-React"
                     target="_blank"
                     className="text-cyan-300"
                   >
                     <ion-icon size="large" name="logo-github"></ion-icon>
                   </a>
                   <a
-                    href="https://github.com/Luismp21/GifExpert-React"
+                    href="https://gif-expert-lm.netlify.app/"
                     target="_blank"
                     className="text-cyan-300"
                   >
@@ -221,14 +226,14 @@ export const Proyects = () => {
                 </div>
                 <div className="flex flex-row gap-4">
                   <a
-                    href="https://administrado-de-veterinaria.netlify.app/"
+                    href="https://github.com/Luismp21/Portfolio"
                     target="_blank"
                     className="text-cyan-300"
                   >
                     <ion-icon size="large" name="logo-github"></ion-icon>
                   </a>
                   <a
-                    href="https://github.com/Luismp21/Administrado-de-Veterinaria-React"
+                    href="https://luismunozp.netlify.app/"
                     target="_blank"
                     className="text-cyan-300"
                   >
