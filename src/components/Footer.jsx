@@ -39,10 +39,10 @@ export const Footer = () => {
             <ion-icon size="large" name="logo-github"></ion-icon>
           </a>
           <a
-            href="/docPrueba.pdf"
+            href="/curriculum.pdf"
             className="flex w-15 h-15 transition hover:-translate-y-1 hover:scale-110  duration-300 text-white font-bold p-2 hover:shadow-2xl hover:shadow-cyan-300 rounded-full border bg-indigo-500 dark:bg-transparent dark:hover:bg-indigo-600 border-indigo-600"
             rel="noopener noreferrer"
-            download="docPrueba.pdf"
+            download="curriculum.pdf"
           >
             <ion-icon size="large" name="document-text-outline"></ion-icon>
           </a>

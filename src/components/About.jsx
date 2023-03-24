@@ -5,10 +5,10 @@ export const About = () => {
 
   return (
     <section id="about">
-      <div className="container min-[320px]:px-8 sm:mx-auto sm:w-3/4 lg:w-3/4 xl:w-3/5 lg:flex lg:items-center gap-2 p-16 ">
+      <div className="container min-[320px]:px-8 sm:mx-auto sm:w-3/4 lg:w-3/4 xl:w-2/5 lg:flex lg:items-center gap-2 p-16 ">
         <div>
           <h2
-            className="text-4xl font-bold text-black dark:text-white mb-8"
+            className="text-4xl text-center font-bold text-black dark:text-white mb-8"
             data-aos="fade-right"
             data-aos-duration="300"
             data-aos-easing="ease-in-sine"
@@ -103,13 +103,6 @@ export const About = () => {
               Tailwindcss
             </li>
           </ul>
-        </div>
-        <div
-          data-aos="fade-right"
-          data-aos-duration="600"
-          data-aos-easing="ease-in-sine"
-        >
-          <img src="/perfil.png" className="bg-contain bg-center" />
         </div>
       </div>
     </section>
